@@ -62,12 +62,15 @@ width: 30vw;
 .card-wrapper{
     padding: 25px;
     background: rgb(248, 179, 239);
-    margin: 15px auto;
+    margin: 15px;
+    border-radius: 10px;
 }
 .user-card{
     width: 25vw;
     background: rgb(13, 176, 231);
     padding: 5px;text-align:center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
 }
 .user-card span{
@@ -80,6 +83,8 @@ width: 30vw;
     border: 1px sold silver;
     background-color: #ffff;
     padding: 25px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 
